@@ -1,0 +1,19 @@
+@media print {
+    body {
+        font-family: "serif"; /* Serifinis šriftas */
+        margin: 0px;
+    }
+
+    #Atlikti-darbai .container {
+        display: block;
+    }
+
+    #Atlikti-darbai .item img {
+        width: 260;
+        height: 260;
+        margin-bottom: 0px;
+    }
+}
+#paslaugos{
+    display: none;
+}

@@ -1,0 +1,308 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 0 15px;
+  background: #0d131c;
+}
+#header .profilis h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profilis h1 a,
+#header .profilis h1 a:hover {
+  color: #b31b1b;
+  text-decoration: none;
+}
+
+#header .profilis .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 40%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+#header .profilis .social-links a:hover {
+  background: #dd2b14;
+  color: #fff;
+}
+#hero {
+  width: 100%;
+  height: 1000px;
+  background: url("images/winter.png") top center;
+  background-size: cover;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-menu {
+  padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+  list-style: none;
+}
+
+.nav-menu>ul>li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover>a i {
+  color: #149ddd;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.section-bg {
+  background: #f5f8fd;
+}
+.skilties-pavadinimas {
+  padding-bottom: 30px;
+}
+
+.skilties-pavadinimas h2, .skilties-pavadinimas h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+  .skilties-pavadinimas h2 {
+  border-bottom: 2px solid #3498db ; 
+   width: 5%;
+}
+.skilties-pavadinimas h3{
+  border-bottom: 2px solid #3498db ; 
+  width: 200px;
+}
+
+.skilties-pavadinimas p {
+  margin-bottom: 0;
+}
+.apie .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.apie .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.apie .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.apie.content ul strong {
+  margin-right: 10px;
+}
+
+.apie .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+  
+  #Atlikti-darbai img:hover {
+    opacity: 40%; 
+  }
+
+  .skills .progress {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+    border-radius: 5px;
+
+  }
+  
+  .skills .progress-bar {
+    height: 100%;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+
+  }
+          .aprasymas .Aprašymo-pavadinimas {
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #050d18;
+          }
+          
+          .aprasymas.resume-item {
+            padding: 0 0 20px 20px;
+            margin-top: -2px;
+            border-left: 2px solid #1f5297;
+            position: relative;
+          }
+          
+          .aprasymas.resume-item h4 {
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            color: #050d18;
+            margin-bottom: 10px;
+          }
+          
+          .aprasymas .resume-item h5 {
+            font-size: 16px;
+            background: #e4edf9;
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          
+          .aprasymas.resume-item ul {
+            padding-left: 20px;
+          }
+          
+          .aprasymas .resume-item ul li {
+            padding-bottom: 10px;
+          }
+          .resume-item {
+            position: relative;
+            padding-left: 30px; /* Atstumas nuo teksto iki linijos */
+          }
+          
+          .resume-item h4::before {
+            content: '';
+            display: block;
+            width: 2px; /* Linijos ilgis */
+            height: 100%;
+            background-color: #3498db;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+        
+
+        .container1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 20px;
+            max-width: 600px;
+          }
+          
+          .item img {
+            width: 240px; 
+            height: 240px; 
+            max-width: 100%; 
+        margin-bottom: 10px;
+          }
+          
+        
+          #footer {
+            padding: 40px 0;
+            background-color: grey;
+          }
+          
+          .social-links-footer a {
+            font-size: 24px;
+            margin-right: 15px;
+            color: #fff;
+            align-items: left;
+          }
+          
+          .social-links-footer a:hover {
+            color: #c26e6e;
+          }
+
